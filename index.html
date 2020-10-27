@@ -12,12 +12,16 @@
     <div id="container">
         <form action="#" id="form">
             <label for="pseudo">Pseudo</label>
-            <input type="text" name="pseudo">
+            <input type="text" name="pseudo" id="pseudo" class="champ">
             <label for="email">Email</label>
-            <input type="email" name="email">
+            <input type="email" name="email" id="mail" class="champ">
             <label for="password">Password</label>
-            <input type="password" name="password">
-            <input type="submit" name="valider">
+            <input type="password" name="password" id="password" class="champ">
+            <input type="submit" name="valider" id="valider" class="button">
+            <input type="reset" id="reset" value="Reset le formulaire" class="button erreur">
+            <div class="erreur error-container">
+                <p>Veuillez remplir correctement tout les champs.</p>
+            </div>
         </form>
     </div>
 </body>
